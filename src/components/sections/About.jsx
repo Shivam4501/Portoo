@@ -7,13 +7,7 @@ export const About = () => {
     "TailwindCSS",
   ];
 
-  const backendSkills = ["Node.js", "AWS", "MongoDB", "Express.js", "Mongoose"];
-  const otherSkills = [
-    "C++",
-    "Data Structures",
-    "Algorithms",
-    "Problem Solving",
-  ];
+  const backendSkills = ["Node.js", "AWS", "MongoDB"];
 
   return (
     <section
