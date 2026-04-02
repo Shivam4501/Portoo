@@ -13,17 +13,21 @@ export const Projects = () => {
             Featured Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            
+
 
 
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2"> VideoBook </h3>
+              <h3 className="text-xl font-bold mb-2">
+                <a href="https://resume-builder-orcin-nu.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors cursor-pointer">
+                  AI Resume Builder
+                </a>
+              </h3>
               <p className="text-gray-400 mb-4">
-                Social Media site enabling users to upload, stream, and Interact with video content and also has a Video Calling feature.
+                A modern and user-friendly web application that allows users to create professional resumes effortlessly by entering their details through an intuitive interface. The application dynamically generates a well-structured resume with real-time preview and supports easy customization and export.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "Redux toolkit", "React Router DOM", "bcrypt.js", "Express.js", "Mongoose", "MongoDB", "Stream"].map((tech, key) => (
+                {["React", "Node.js", "Redux toolkit", "React Router DOM", "bcrypt.js", "Express.js", "Mongoose", "MongoDB", "Stream", "LLM API"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -37,14 +41,14 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="https://github.com/Shivam4501/VIDEOBOOK"
+                  href="https://github.com/Shivam4501/Resume-Builder"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
               </div>
             </div>
-            
+
 
 
 
@@ -56,13 +60,16 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">AI YT-Tweet</h3>
+              <h3 className="text-xl font-bold mb-2">
+                <a href="https://chatbot-ai-mauve.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors cursor-pointer">
+                  AI MERN CHATBOT
+                </a>
+              </h3>
               <p className="text-gray-400 mb-4">
-                Designed custom middleware for vidTube to optimize video uploads to Cloudinary; reduced upload times by 40 percent
-                and decreased storage costs by 15 percent through efficient compression techniques.
+                Developed a responsive AI chatbot using HTML, CSS, JavaScript, and Node.js, integrating LLM APIs to enable real-time intelligent conversations with a secure backend and enhanced user experience.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Node.js", "Express.js", "MongoDB", "Cloudinary", "JWT", "RESTful APIs", "dotenv", "MVC Architecture"].map((tech, key) => (
+                {["Node.js", "Express.js", "MongoDB", "Cloudinary", "JWT", "RESTful APIs", "dotenv", "MVC Architecture", "LLM APIs"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -79,14 +86,14 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="https://github.com/Shivam4501/YT-Tweet"
+                  href="https://github.com/Shivam4501/CHATBOT-AI"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
               </div>
             </div>
-            
+
 
 
 
@@ -130,10 +137,10 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
-            
 
 
-            
+
+
           </div>
         </div>
       </RevealOnScroll>
